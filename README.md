@@ -9,6 +9,8 @@ AgentFault Lab is an open-source, local-first laboratory for controlled fault in
 <img width="1350" height="596" alt="image" src="https://github.com/user-attachments/assets/a2f3ec69-ebcf-4bde-8c8e-80f81d64e2c3" />
 <img width="1304" height="356" alt="image" src="https://github.com/user-attachments/assets/7aaf50b2-d9c0-4d91-8e12-6057ab72ac91" />
 <img width="1312" height="594" alt="image" src="https://github.com/user-attachments/assets/2b426118-f718-46c7-9d4d-ad0c58e2f270" />
+<img width="1054" height="478" alt="image" src="https://github.com/user-attachments/assets/25e686fd-a8d5-43ac-9a51-08401e9fc588" />
+<img width="1046" height="388" alt="image" src="https://github.com/user-attachments/assets/32439716-7011-4143-a1a8-af5bc67b7ec3" />
 
 
 ## Why this exists
