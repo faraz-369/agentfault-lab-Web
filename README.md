@@ -4,7 +4,9 @@
 
 AgentFault Lab is an open-source, local-first laboratory for controlled fault injection and recovery experiments in multi-step agent workflows. It records structured execution events, checks explicit invariants, compares recovery policies, and saves experiment results for inspection and regression testing.
 
-> **Status:** Initial working implementation / research prototype. The benchmark uses a small deterministic simulator. Results are not evidence of production-wide reliability or universal LLM behavior.
+> **Status:** Initial working implementation / research prototype. The benchmark uses a small deterministic simulator. Results are not evidence of production-wide reliability or universal LLM behavior
+>.**Try it Live here:**
+https://agentfault-lab-web.vercel.app/ 
 
 <img width="1350" height="596" alt="image" src="https://github.com/user-attachments/assets/a2f3ec69-ebcf-4bde-8c8e-80f81d64e2c3" />
 <img width="1304" height="356" alt="image" src="https://github.com/user-attachments/assets/7aaf50b2-d9c0-4d91-8e12-6057ab72ac91" />
