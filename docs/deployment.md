@@ -12,8 +12,8 @@ This guide deploys the current AgentFault Lab **simulator MVP**. It is not a cla
 ## 1. Deploy the API on Render
 
 1. Sign in to [Render](https://render.com/).
-2. Choose **New → Blueprint** and connect `faraz-369/agentfault-lab`, or create a Web Service from that repository.
-3. Choose branch `feat/production-platform` while testing this branch.
+2. Choose **New → Blueprint** and connect `faraz-369/agentfault-lab-Web`, or create a Web Service from that repository.
+3. Choose branch `main`.
 4. If using the Blueprint, review `render.yaml` and create the service named `agentfault-lab-api`.
 5. Confirm the environment variables:
    - `APP_ENV=production`
@@ -27,7 +27,7 @@ The API intentionally returns `503` for protected endpoints if `APP_ENV=producti
 ## 2. Deploy the frontend on Vercel
 
 1. Sign in to [Vercel](https://vercel.com/).
-2. Choose **Add New → Project**, then import `faraz-369/agentfault-lab`.
+2. Choose **Add New → Project**, then import `faraz-369/agentfault-lab-Web`.
 3. Set **Root Directory** to `frontend`.
 4. Let Vercel detect Next.js. The build command should be `npm run build` (or the detected equivalent).
 5. Add these environment variables for Preview and Production as appropriate:
@@ -40,7 +40,7 @@ Never prefix `AGENTFAULT_API_KEY` with `NEXT_PUBLIC_`. `NEXT_PUBLIC_` variables 
 
 ## 3. Git workflow
 
-Use `feat/production-platform` for development. Verify tests and frontend build, push the branch, then open a pull request into `main`. Merge only after reviewing the changes. For the final public production deployment, configure Render and Vercel to deploy from `main`.
+The current deployment configuration targets the published `main` branch. For future changes, work on a separate branch, verify tests and the frontend build, then open a pull request into `main`. Merge only after reviewing the changes.
 
 ## Current limitations before calling this production SaaS
 
