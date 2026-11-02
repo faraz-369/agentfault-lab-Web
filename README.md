@@ -6,6 +6,11 @@ AgentFault Lab is an open-source, local-first laboratory for controlled fault in
 
 > **Status:** Initial working implementation / research prototype. The benchmark uses a small deterministic simulator. Results are not evidence of production-wide reliability or universal LLM behavior.
 
+<img width="1350" height="596" alt="image" src="https://github.com/user-attachments/assets/a2f3ec69-ebcf-4bde-8c8e-80f81d64e2c3" />
+<img width="1304" height="356" alt="image" src="https://github.com/user-attachments/assets/7aaf50b2-d9c0-4d91-8e12-6057ab72ac91" />
+<img width="1312" height="594" alt="image" src="https://github.com/user-attachments/assets/2b426118-f718-46c7-9d4d-ad0c58e2f270" />
+
+
 ## Why this exists
 
 Tracing and LLM evaluation platforms already cover substantial parts of debugging and evaluation. AgentFault Lab focuses on a narrower workflow:
