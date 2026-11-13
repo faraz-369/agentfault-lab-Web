@@ -1,4 +1,4 @@
-# AgentFault Lab..
+# AgentFault Lab
 
 **Reproduce the failure. Find the broken invariant. Prove the recovery.**
 
